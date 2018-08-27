@@ -1,0 +1,45 @@
+.filter{
+
+    .btn-group{
+        width: 100%;
+        margin-bottom: 20px;
+
+        @include desktop{
+            margin-bottom: 0;
+        }
+    }
+
+    .open{
+        & > .btn-default.dropdown-toggle{
+            background-color: $white;
+            border: solid 2px $brand-red;
+            box-shadow: none;
+            width: 100%;
+        }
+    }
+
+    button{
+        border: solid 2px $black;
+        border-radius: 0;
+        width: 100%;
+
+        &:hover, &:active, &.open{
+            background-color: $white;
+            border: solid 2px $brand-red;
+        }
+    }
+
+    .dropdown-menu{
+        border: solid 2px $black;
+        border-radius: 0;
+        text-align: center;
+        width: 100%;
+
+        .active{
+            &> a{
+                background-color: $text-gray;
+                color: $black;
+            }
+        }
+    }
+}

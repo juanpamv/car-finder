@@ -1,0 +1,56 @@
+﻿.footer {
+    background-color: $black;
+    color: $white;
+    padding: 50px 0 15px;
+
+    &__rights{
+        text-align: center;
+
+        p{
+            @include fontSize(14px);
+        }
+    }
+
+    &__logo{
+        margin-bottom: 20px;
+        text-align: center;
+
+        @include tablet{
+            margin-bottom: 100px;
+            text-align: left;
+        }
+    }
+
+    &__menu{
+        margin-bottom: 20px;
+        text-align: center;
+
+        @include tablet{
+            margin-bottom: 100px;
+            text-align: right;
+        }
+
+        ul{
+            list-style: none;
+            padding-left: 0;      
+        }
+
+        li{
+            font: $source-sans;
+            @include fontSize(16px);
+            line-height: 2rem;
+            margin-bottom: 20px;
+            padding: 0 20px;
+
+            @include tablet{
+                display: inline;
+            }
+        }
+
+        a{
+            color: $white;
+            text-decoration: underline;
+        }
+    }
+
+}

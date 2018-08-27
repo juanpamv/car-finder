@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="22px" viewBox="0 0 118 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Hero Logo Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-85.000000, -14.000000)">
+            <g id="Hero-Logo-Copy" transform="translate(84.000000, 13.000000)">
+                <polygon id="Rectangle-3" fill="#E9103A" fill-rule="nonzero" points="49.6790865 1 119 1 113.320913 23 44 23"></polygon>
+                <text id="FIND-YOUR-CAR" font-family="SourceSansPro-BoldItalic, Source Sans Pro" font-size="18" font-style="italic" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="0.514" y="18">FIND YOUR CAR</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

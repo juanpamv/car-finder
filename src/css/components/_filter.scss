@@ -1,0 +1,13 @@
+.filter{
+    padding: 60px 15px;
+    text-align: center;
+
+    input{
+        border: solid 2px $black;
+        border-radius: 0;
+        height: 35px;
+        @include fontSize(16px);
+        padding: 5px 10px;
+        width: 100%;
+    }
+}

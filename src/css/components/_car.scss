@@ -1,0 +1,47 @@
+.car{
+    background-color: $text-gray;
+    margin-bottom: 30px;
+    padding: 0;
+
+    img{
+        width: 100%;
+    }
+
+    &__content{
+        padding: 10px 15px;
+
+        &--button-container{
+            padding: 0 15px 10px;
+        }
+
+        &__button{
+            background-color: transparent;
+            border: none;
+            color: $brand-red;
+            display: inline-block;
+            font: $source-sans-bold;
+            @include fontSize(15px);
+            padding: 0 15px;
+            text-align: center;
+            text-decoration: underline;
+            width: 50%;
+
+            &:hover{
+                color: darken($brand-red, 10);
+            }
+
+            &:nth-child(1){
+                border-right: solid 1px $black;
+            }
+        }
+    }
+
+    p{
+        margin-bottom: 0;
+    }
+
+    &__title{
+        font: $source-sans-semibold;
+        @include fontSize(18px);
+    }
+}

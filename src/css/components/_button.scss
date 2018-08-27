@@ -1,0 +1,20 @@
+button{
+    &:focus {
+        outline: none;
+    }
+}
+.button{
+    background-color: $brand-red;
+    border: none;
+    color: $white;
+    font: $source-sans;
+    @include fontSize(16px);
+    padding: 10px 35px;
+
+    &:hover{
+        background-color: darken($brand-red, 10);
+    }
+    &:focus {
+        outline: none;
+    }
+}
