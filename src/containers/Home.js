@@ -8,6 +8,9 @@ import CarsGrid from "../components/CarsGrid";
  * Home Page component - Loads all components requiered for this view
  */
 class Home extends React.Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     render() {
         return (
             <React.Fragment>

@@ -6,13 +6,14 @@ import Footer from "./../components/Footer";
 import Home from "./../containers/Home";
 import SingleCar from "./../containers/SingleCar";
 import Comparative from "./../containers/Comparative";
+import NotFound from "./../components/NotFound";
 
 // Import Cars data from Json File
 import Cars from "./../data/cars";
 
 class App extends React.Component {
     state = {
-        cars: Cars,
+        cars: [],
         alert: {
             message: "The car was added to the comparative section",
             show: false
@@ -25,6 +26,11 @@ class App extends React.Component {
         },
         comparative: []
     };
+    componentDidMount() {
+        this.setState({
+            cars: Cars
+        });
+    }
     // Import Cars data from Json File
     updateFilter = (buttonType, val) => {
         const filter = { ...this.state.filter, [buttonType]: val };
@@ -126,6 +132,7 @@ class App extends React.Component {
                             />
                         )}
                     />
+                    <Route component={NotFound} />
                 </Switch>
                 <Footer />
             </React.Fragment>

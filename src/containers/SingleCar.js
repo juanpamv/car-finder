@@ -11,6 +11,9 @@ import Extras from "../components/Extras";
  * Single car page component - Loads all components requiered for this view
  */
 class SingleCar extends React.Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     render() {
         /** carName | take car from url carId */
         const carName = this.props.match.params.carId;

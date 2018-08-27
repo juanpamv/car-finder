@@ -8,6 +8,9 @@ import ComparativeCar from "./../components/CompativeCar";
  * Car comparative page component - Loads all components requiered for this view
  */
 class Comparative extends React.Component {
+    componentDidMount() {
+        window.scrollTo(0, 0);
+    }
     render() {
         return (
             <React.Fragment>
